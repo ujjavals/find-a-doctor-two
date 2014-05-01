@@ -8,7 +8,7 @@ height:100%;
 }
 body{
 width:100%;
-background:url("../css/bg.png") no-repeat fixed 0 0 / cover  rgba(0, 0, 0, 0);
+background:#2F7B4D;
 }
 .center_container{
 margin:0px auto;
