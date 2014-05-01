@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Doctor</title>
+<link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<body onload="onload()">
+<div class="container-fluid">
+<div class="row">
+		<div id="sceenone">
+			  <div class="col-md-4 center_container logo">
+				<h1><img class="custom_image" src="images/FDB_logo.png" alt="Find a doctor"/></h1>
+			  </div>	
+			  <div class="col-md-6 center_container">
+				
+				  <div class="form-group">
+					<select  id="specilties" class="form-control inputstyle select_option">
+					<option value="0">Specialties</option>
+					
+					</select>
+				  </div>
+				  
+				  <div class="form-group">
+						
+					<select  id="location" class="form-control inputstyle select_option">
+						<option value="0">Location</option>
+					
+					</select>
+					 
+				  </div>
+				  
+				  
+				  <button type="submit" onclick="submit()" class="btn btn-default inputstyle inputsumit">Search</button>
+				  <div style="clear:both;"></div>
+				
+
+			  </div>
+		</div>	
+		<div id="screen_two">
+			<div class="col-md-6 center_container top_heading top">
+				<div class="row top_heading_container">
+					<div class="col-xs-2">
+						<a href="javascript:void(0)" onclick="gohome()"><span class="glyphicon glyphicon-chevron-left"></span> </a>
+					</div>
+					<div  class="col-xs-8">
+						<h3>Doctors</h3>
+					</div>
+					<div class="col-xs-2">
+						<a href="javascript:void(0)"><!-- <span class="glyphicon glyphicon-chevron-right"></span> --></a>
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+				<div style="clear:both;"></div>
+			</div>
+			<div style="clear:both;"></div>
+			<div class="col-md-6 center_container">
+				<div class="row">
+					
+					<div  class="col-md-6">
+						<ul class="list_style_doc" id="list_style_doc">
+								
+						</ul>
+						
+						
+					</div>
+					
+					<div style="clear:both;"></div>
+				</div>
+				
+				
+
+				<div style="clear:both;"></div>
+			</div>
+				
+		</div>	
+</div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+</html>

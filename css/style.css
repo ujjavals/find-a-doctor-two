@@ -1,0 +1,42 @@
+*{
+margin:0px;
+padding:0px;
+}
+html{
+width:100%;
+height:100%;
+}
+body{
+width:100%;
+background:url("bg.png") no-repeat fixed 0 0 / cover  rgba(0, 0, 0, 0);
+}
+.center_container{
+margin:0px auto;
+float:none !important;
+}
+.logo{margin:50% 0px 0px 0px; }
+.custom_image{width:100%;}
+.inputstyle{
+background:transparent;
+border:2px solid #fff;
+color:#fff;
+}
+.select_option option{background:#7FD28A;}
+.inputsumit{float:right;}
+#sceenone{display:block;}
+#screen_two{display:none;}
+.top_heading.top{text-align:Center;color:#2F7B4D; background:#fff;}
+.top_heading h3{margin:-3px 0px 0px 0px; text-transform:uppercase;text-align:center;}
+.top .top_heading_container{padding:40px 0px; background:#fff;}
+.doctor_box{background:#fff; margin:20px 0px 0px 0px;/* border-radius:190px 0 0 485px; */}
+.doctor_icon{background:url("021.png") no-repeat scroll 0 0 / cover  rgba(0, 0, 0, 0); width:90px;height:90px;    margin-left: -10px;
+    margin-top: -17px;}
+.doctor_contain{  float: right;}
+.doctor_contain h5{margin-bottom:4px;font-weight:bold; color:#0D703A;}
+.doctor_contain h4{color:#fff; margin:0px 0px 0px 15px;}
+.doctor_contain p{color:#0D703A;font-size:11px;margin-bottom:2px;}
+.doctor_icon_map{background:url("location.png") no-repeat 0 0 / cover  rgba(0, 0, 0, 0); width:15px;height:18px;}
+.address{font-size:12px;}
+.addres_content{font-size:11px;color:#0D703A;}
+.get_appointment{background:url("get_an_app.png") no-repeat 0 0 / cover  rgba(0, 0, 0, 0); width:159px;height:38px;float:right;margin-right:-28px;margin-top:10px;}
+.list_style_doc{list-style:none;}
