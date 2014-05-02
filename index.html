@@ -100,19 +100,22 @@
 				<div class="row">
 					<div  class="col-md-6 appointment_area">
 							<div class="form-group">
-								<input type="text" class="form-control" id="user_name" placeholder="Enter name">
+								<label class="formlabel" for="username">Enter Name</label>
+								<input type="text" maxlength="20" class="form-control" id="user_name" onkeyup="valid4(this);" placeholder="Enter name">
 							</div>
 							<div class="form-group">
-								<input type="text" class="form-control" id="user_email" placeholder="Enter email">
+								<label class="formlabel" for="useremail">Enter Email</label>
+								<input type="text" maxlength="30" class="form-control" id="user_email" placeholder="Enter email">
 							</div>
 							<div class="form-group">
-								<input type="text" class="form-control" id="user_mobilenumber" placeholder="Enter mobile number">
+								<label class="formlabel" for="usermobile">Enter Mobile No</label>
+								<input type="text" maxlength="12"  onkeyup="valid77(this);" class="form-control" id="user_mobilenumber" placeholder="Enter mobile number">
 							</div>
 							<div class="form-group">
-								<textarea class="form-control" id="user_comment" placeholder="Enter comment">
-								</textarea>
+								<label for="usercomment" class="formlabel">Enter Your Comment</label>
+								<textarea class="form-control" maxlength="50" id="user_comment" placeholder="Enter comment"></textarea>
 							</div>
-							<button type="submit" onclick="appointmentsubmit()" class="btn btn-default inputstyle inputsumit">Search</button>
+							<button type="submit" onclick="appointmentsubmit()" class="btn btn-default inputstyle inputsumit">Submit</button>
 							<div style="clear:both;"></div>
 					</div>
 					<div style="clear:both;"></div>
