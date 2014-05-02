@@ -27,7 +27,7 @@ color:#fff;
 #screen_two{display:none;}
 #screen_three{display:none; position:relative;}
 .top_heading.top{text-align:Center;color:#2F7B4D; background:#fff;}
-.top_heading h3{margin:-3px 0px 0px 0px; text-transform:uppercase;text-align:center;}
+.top_heading h3{margin:-3px 0px 0px 0px; text-transform:uppercase;text-align:left; text-indent: 25px;}
 .top .top_heading_container{padding:20px 0px; background:#fff;}
 .doctor_box{background:#fff; margin:20px 0px 0px 0px;/* border-radius:190px 0 0 485px; */}
 .doctor_icon{background:url("http://s14.postimg.org/fqauipxp9/021.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
