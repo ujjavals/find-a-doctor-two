@@ -23,7 +23,7 @@ border:2px solid #fff;
 color:#fff;
 }
 .select_option option{background:#7FD28A;}
-.inputsumit{float:right;}
+.inputsumit{float:right; padding:6px 25px;}
 #sceenone{display:block;}
 #screen_two{display:none;}
 #screen_three{display:none; position:relative;}
